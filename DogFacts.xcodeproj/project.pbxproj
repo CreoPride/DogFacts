@@ -13,6 +13,8 @@
 		D1C1AD322801B28500DB3375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C1AD302801B28500DB3375 /* Main.storyboard */; };
 		D1C1AD342801B28900DB3375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C1AD332801B28900DB3375 /* Assets.xcassets */; };
 		D1C1AD372801B28900DB3375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C1AD352801B28900DB3375 /* LaunchScreen.storyboard */; };
+		D1C1AD3F2801B31100DB3375 /* DogFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1AD3E2801B31100DB3375 /* DogFact.swift */; };
+		D1C1AD412801B50D00DB3375 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1AD402801B50D00DB3375 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D1C1AD332801B28900DB3375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1C1AD362801B28900DB3375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1C1AD382801B28900DB3375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C1AD3E2801B31100DB3375 /* DogFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFact.swift; sourceTree = "<group>"; };
+		D1C1AD402801B50D00DB3375 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				D1C1AD2A2801B28500DB3375 /* AppDelegate.swift */,
 				D1C1AD2C2801B28500DB3375 /* SceneDelegate.swift */,
+				D1C1AD3E2801B31100DB3375 /* DogFact.swift */,
+				D1C1AD402801B50D00DB3375 /* NetworkManager.swift */,
 				D1C1AD2E2801B28500DB3375 /* ViewController.swift */,
 				D1C1AD302801B28500DB3375 /* Main.storyboard */,
-				D1C1AD332801B28900DB3375 /* Assets.xcassets */,
 				D1C1AD352801B28900DB3375 /* LaunchScreen.storyboard */,
+				D1C1AD332801B28900DB3375 /* Assets.xcassets */,
 				D1C1AD382801B28900DB3375 /* Info.plist */,
 			);
 			path = DogFacts;
@@ -140,6 +146,8 @@
 			files = (
 				D1C1AD2F2801B28500DB3375 /* ViewController.swift in Sources */,
 				D1C1AD2B2801B28500DB3375 /* AppDelegate.swift in Sources */,
+				D1C1AD412801B50D00DB3375 /* NetworkManager.swift in Sources */,
+				D1C1AD3F2801B31100DB3375 /* DogFact.swift in Sources */,
 				D1C1AD2D2801B28500DB3375 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
